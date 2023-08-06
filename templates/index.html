@@ -1,0 +1,200 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title%}
+Home
+{% endblock %}
+
+
+{% block content %}
+
+<!-- HOME -->
+<section id="home" class="slider" data-stellar-background-ratio="0.5">
+     <div class="container">
+          <div class="row">
+
+               <div class="owl-carousel owl-theme">
+                    <div class="item item-first">
+                         <div class="caption">
+                              <div class="col-md-offset-1 col-md-10">
+                                   <h3>Here, you're in the best hands possible</h3>
+                                   <h1>Healthy Living</h1>
+                                   <a href="#team" class="section-btn btn btn-default smoothScroll">Meet Our Doctors</a>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="item item-second">
+                         <div class="caption">
+                              <div class="col-md-offset-1 col-md-10">
+                                   <h3>Here, you're in the best hands possible</h3>
+                                   <h1>New Lifestyle</h1>
+                                   <a href="#about" class="section-btn btn btn-default btn-gray smoothScroll">More About
+                                        Us</a>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+
+<!-- ABOUT -->
+<section id="about">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-6 col-sm-6">
+                    <div class="about-info">
+                         <h2 class="wow fadeInUp" data-wow-delay="0.6s">We Welcome You To <i
+                                   class="fa fa-h-square"></i>ealth care, Pathanamthitta</h2>
+                         <div class="wow fadeInUp" data-wow-delay="0.8s">
+                              <p>Since its inception in 2010, Health care, pathanamthitta  is committed to providing high quality specialized healthcare services to the community. As one of the fastest developing healthcare centres in Kerala, Health care, pathanamthitta is among the pioneers in providing advanced medical care facilities in Kerala.</p>
+                              <p> Well-trained staff, state-of-the-art facilities and tailored treatment programs are among the few features of the clinic propelling Health care, pathanamthitta  into the spotlight as a leading multi-specialty clinic across the state.</p>
+                         </div>
+                         <figure class="profile wow fadeInUp" data-wow-delay="1s">
+                              <img src="{% static 'profile_pic/DoctorProfilePic/benathy.jpg' %}" class="img-responsive" alt="">
+                              <figcaption>
+                                   <h3>Dr. Benathy Andrews</h3>
+                                   <p>General Surgeon</p>
+                              </figcaption>
+                         </figure>
+                    </div>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+<!-- TEAM -->
+<section id="team" data-stellar-background-ratio="1">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-6 col-sm-6">
+                    <div class="about-info">
+                         <h2 class="wow fadeInUp" data-wow-delay="0.1s">Our Doctors</h2>
+                    </div>
+               </div>
+
+               <div class="clearfix"></div>
+
+               <div class="col-md-4 col-sm-6">
+                    <div class="team-thumb wow fadeInUp" data-wow-delay="0.2s">
+                         <img src="{% static 'profile_pic/DoctorProfilePic/alan_shibu.jpg' %}" class="img-responsive" alt="">
+
+                         <div class="team-info">
+                              <h3>Dr Alan shibu</h3>
+                              <p>GASTROENTEROLOGY</p>
+                              <div class="team-contact-info">
+                                   <p><i class="fa fa-phone"></i> +91 9400608148</p>
+                                   <p><i class="fa fa-envelope-o"></i> <a href="#">gastro@healthcare.com</a></p>
+                              </div>
+                              <ul class="social-icon">
+                                   <li><a href="#" class="fa fa-linkedin-square"></a></li>
+                                   <li><a href="#" class="fa fa-envelope-o"></a></li>
+                              </ul>
+                         </div>
+
+                    </div>
+               </div>
+
+               <div class="col-md-4 col-sm-6">
+                    <div class="team-thumb wow fadeInUp" data-wow-delay="0.4s">
+                         <img src="{% static 'profile_pic/DoctorProfilePic/gholap.jpg' %}" class="img-responsive" alt="" height="250px">
+
+                         <div class="team-info">
+                              <h3>Dr. Abhijith Gholap</h3>
+                              <p>Dermatologists</p>
+                              <div class="team-contact-info">
+                                   <p><i class="fa fa-phone"></i> 7012975151</p>
+                                   <p><i class="fa fa-envelope-o"></i> <a href="#">dental@healthcare.com</a></p>
+                              </div>
+                              <ul class="social-icon">
+                                   <li><a href="#" class="fa fa-facebook-square"></a></li>
+                                   <li><a href="#" class="fa fa-envelope-o"></a></li>
+                                   <li><a href="#" class="fa fa-flickr"></a></li>
+                              </ul>
+                         </div>
+
+                    </div>
+               </div>
+
+               <div class="col-md-4 col-sm-6">
+                    <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
+                         <img src="{% static 'profile_pic/DoctorProfilePic/febin.jpg' %}" class="img-responsive" alt="">
+
+                         <div class="team-info">
+                              <h3>Dr. Febin plamoottil</h3>
+                              <p>Cardiology</p>
+                              <div class="team-contact-info">
+                                   <p><i class="fa fa-phone"></i> 9947406332</p>
+                                   <p><i class="fa fa-envelope-o"></i> <a href="#">cardio@healthcare.com</a></p>
+                              </div>
+                              <ul class="social-icon">
+                                   <li><a href="#" class="fa fa-twitter"></a></li>
+                                   <li><a href="#" class="fa fa-envelope-o"></a></li>
+                              </ul>
+                         </div>
+
+                    </div>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+
+<!-- MAKE AN APPOINTMENT -->
+<section id="appointment" data-stellar-background-ratio="3">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-6 col-sm-6">
+                    <img src="{% static 'images/appointment-image.jpg' %}" class="img-responsive" alt="">
+               </div>
+
+               <div class="col-md-6 col-sm-6">
+                    <!-- CONTACT FORM HERE -->
+                    <form id="appointment-form" role="form" method="post" action="#">
+
+                         <!-- SECTION TITLE -->
+                         <div class="section-title wow fadeInUp" data-wow-delay="0.4s">
+                              <h2>Make an appointment</h2>
+                         </div>
+
+                         
+                    </form>
+               </div>
+
+          </div>
+     </div>
+</section><br>
+
+
+<!-- GOOGLE MAP -->
+<section id="google-map">
+     <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63005.11314209269!2d76.73686116565926!3d9.260412312582124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06152f4f9705d7%3A0x4d93dd296d4b4abc!2sPathanamthitta%2C%20Kerala!5e0!3m2!1sen!2sin!4v1691157582197!5m2!1sen!2sin"
+          width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+</section>
+
+
+<!-- FOOTER -->
+<footer data-stellar-background-ratio="5">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-4 col-sm-4">
+                    <div class="footer-thumb">
+                         <h4 class="wow fadeInUp" data-wow-delay="0.4s">Contact Info</h4>
+
+                         <div class="contact-info">
+                              <p><i class="fa fa-phone"></i> +91 8281575065</p>
+                              <p><i class="fa fa-envelope-o"></i> <a href="#">info@healthcare.com</a></p>
+                         </div>
+                    </div>
+               </div>
+
+{% endblock content %}
