@@ -1,7 +1,14 @@
 
+
+
 # Clinic Hospital Management System
 
 A Clinic Hospital Management System using Django Framework
+
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harikrishna-r-87b3ab253/)
+
 
 ## How to use ?
 
